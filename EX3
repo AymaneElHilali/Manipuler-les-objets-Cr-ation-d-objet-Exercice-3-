@@ -1,0 +1,27 @@
+1. Créez une autre classe appelée « Livre ». Chaque livre doit avoir les
+propriétés suivantes :
+• Titre, Genre, Auteur
+• Lu (vrai ou faux)
+• Date de lecture: peut être vide, sinon doit être un objet Date de
+JS.
+2. Créez une classe appelée « ListeLivres » via le modèle d'appel du
+constructeur. Cette classe a les propriétés suivantes :
+• Nombre de livres marqués comme lus
+• Nombre de livres marqués pas encore lus
+• Livre suivant à lire (objet livre)
+• Livre en cours de lecture (objet livre)
+• Dernier livre lu (objet livre)
+• Un tableau de tous les livres.
+Exercice 3 :
+3. Chaque liste de livres devrait avoir les méthodes suivantes :
+• ajouter(livre) qui ajoute un livre à la liste des livres.
+• terminerLivreEnCours()
+• Doit marquer le livre en cours de lecture comme lu
+• Modifiez la propriété dernierLivre en lui affectant le
+livre lu
+• Modifiez la propriété livreEnCours pour pointer vers le
+contenu de la propriété livreSuivant ;
+• Modifiez la propriété livreSuivant pour qu'elle soit le
+premier livre non lu de la liste des livres.
+4. Proposez d’autres méthodes pour compléter les traitements au niveau des
+classes listeLivres.
